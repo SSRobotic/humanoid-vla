@@ -16,17 +16,7 @@ VLA model projects, manipulation policies and humanoid embodied AI references.
 
 โครงการ VLA, Policy สำหรับ Manipulation และ Embodied AI
 
-Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repository is a focused resource directory and engineering guide. Linked SDKs, models and research implementations belong to their original creators.
-
-## 🗂️ Resource directory
-
-| Resource | What it provides | Keywords | Original source |
-| --- | --- | --- | --- |
-| [XR-1](https://github.com/Open-X-Humanoid/XR-1) | Research code for vision-language-action models and unified vision-motion representations. | VLA, Embodied AI, Research | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/XR-1) |
-| [HEX](https://github.com/Open-X-Humanoid/HEX) | Whole-body vision-language-action research for full-sized humanoids. | Humanoid, VLA, Whole-body | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/HEX) |
-| [X-Humanoid VLA Benchmark](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) | Isaac Sim resources for evaluating vision-language-action policies. | VLA, Benchmark, Isaac Sim | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) |
-| [OpenPI](https://github.com/Physical-Intelligence/openpi) | Physical Intelligence VLA models and training / inference code. | VLA, Policies, Training | [Physical-Intelligence](https://github.com/Physical-Intelligence/openpi) |
-| [OpenVLA](https://github.com/openvla/openvla) | Vision-language-action models for robotic manipulation. | VLA, Manipulation, Policies | [openvla](https://github.com/openvla/openvla) |
+Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repository contains actual source files in `projects/`, with pinned upstream commits, retained licenses and an engineering guide. The imported implementations remain credited to their original creators.
 
 ## 📦 Code & models in this repository
 
@@ -44,6 +34,16 @@ cd humanoid-vla
 ```
 
 OpenVLA model code and training scripts are included. Pretrained weights, training datasets and a configured robot environment are acquired separately through the original project.
+
+## 🗂️ Resource directory
+
+| Resource | What it provides | Keywords | Original source |
+| --- | --- | --- | --- |
+| [XR-1](https://github.com/Open-X-Humanoid/XR-1) | Research code for vision-language-action models and unified vision-motion representations. | VLA, Embodied AI, Research | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/XR-1) |
+| [HEX](https://github.com/Open-X-Humanoid/HEX) | Whole-body vision-language-action research for full-sized humanoids. | Humanoid, VLA, Whole-body | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/HEX) |
+| [X-Humanoid VLA Benchmark](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) | Isaac Sim resources for evaluating vision-language-action policies. | VLA, Benchmark, Isaac Sim | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) |
+| [OpenPI](https://github.com/Physical-Intelligence/openpi) | Physical Intelligence VLA models and training / inference code. | VLA, Policies, Training | [Physical-Intelligence](https://github.com/Physical-Intelligence/openpi) |
+| [OpenVLA](https://github.com/openvla/openvla) | Vision-language-action models for robotic manipulation. | VLA, Manipulation, Policies | [openvla](https://github.com/openvla/openvla) |
 
 ## 🚀 Start here
 
