@@ -1,0 +1,22 @@
+{
+  "repository": "humanoid-vla",
+  "url": "https://github.com/SSRobotic/humanoid-vla",
+  "projects": [
+    {
+      "slug": "openvla/openvla",
+      "source_url": "https://github.com/openvla/openvla",
+      "commit": "c8f03f48af692657d3060c19588038c7220e9af9",
+      "branch": "main",
+      "snapshot": "all tracked file blobs at the pinned commit",
+      "gitlinks": [],
+      "license": "MIT",
+      "folder": "projects/openvla",
+      "file_count": 106,
+      "bytes": 677179,
+      "lfs_pointers": []
+    }
+  ],
+  "source_file_count": 106,
+  "lfs_pointer_count": 0,
+  "materialized_file_count": 106
+}

@@ -1,0 +1,651 @@
+{
+  "slug": "openvla/openvla",
+  "source_url": "https://github.com/openvla/openvla",
+  "commit": "c8f03f48af692657d3060c19588038c7220e9af9",
+  "branch": "main",
+  "snapshot": "all tracked file blobs at the pinned commit",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha": "6160ebcb1373cdd92f95cce9130953b5fb0bf83c",
+      "size": 2030,
+      "mode": "100644"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "sha": "8a9d4b317b2b92ff920e903c5bb051a0f18a3fd8",
+      "size": 677,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "04f26a7d0bfdeb89ce54681c695a40df21aa6d96",
+      "size": 1105,
+      "mode": "100644"
+    },
+    {
+      "path": "Makefile",
+      "sha": "70de1be60431f58019fde4d996961e69b22b9102",
+      "size": 661,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "075feef94adfeb802d1d89856159a974bf5358f8",
+      "size": 38458,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/bridge/bridgev2_utils.py",
+      "sha": "9b5abb8b540e0668aa0e6ec0c509f8e1971ca126",
+      "size": 4975,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/bridge/run_bridgev2_eval.py",
+      "sha": "f547329faf6deb17de0b7ce3c330347fd29aea62",
+      "size": 6985,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/bridge/widowx_env.py",
+      "sha": "06e82a43d40a4433ab795d125c8adc8ce280d37f",
+      "size": 5944,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/libero/libero_requirements.txt",
+      "sha": "ca0c0467efa33b91ad76d66976da480c1e5f572f",
+      "size": 63,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/libero/libero_utils.py",
+      "sha": "70a5d70743e57f8810ac80d16d22afd208fda7b0",
+      "size": 3933,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/libero/regenerate_libero_dataset.py",
+      "sha": "0966413ee197c6f6a2da4d03310943a84584dbb7",
+      "size": 11225,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/libero/run_libero_eval.py",
+      "sha": "5c3f58178d7c827df829379354f7aefddc0458bc",
+      "size": 11936,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/openvla_utils.py",
+      "sha": "e12e9a2f29852a20500cac1862e3ba218e0387ec",
+      "size": 6638,
+      "mode": "100644"
+    },
+    {
+      "path": "experiments/robot/robot_utils.py",
+      "sha": "10e5289d84d273d2f6ba7ba131dfc973cb02eb7c",
+      "size": 3405,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/__init__.py",
+      "sha": "fad1d6a59fcb09f71bf70a2a9f3b890f8476c18f",
+      "size": 89,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/conf/__init__.py",
+      "sha": "d0af60ce04bf5b23d2cec9380f575d523e61997f",
+      "size": 140,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/conf/datasets.py",
+      "sha": "897ab3092e232321628f284a5e1926db21feb2bf",
+      "size": 4756,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/conf/models.py",
+      "sha": "6f507b0dd0d7df45f1d12de304425753a04aa732",
+      "size": 21138,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/conf/vla.py",
+      "sha": "94d2a2b701629d99bd8b87ab0c36e13470b691a8",
+      "size": 9078,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/extern/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/extern/hf/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/extern/hf/configuration_prismatic.py",
+      "sha": "c2625753c4da1a6ef274a02645d4086bc7a7fb2b",
+      "size": 5865,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/extern/hf/modeling_prismatic.py",
+      "sha": "4a26c487190fa2359007b30a78094a6c432d6519",
+      "size": 26062,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/extern/hf/processing_prismatic.py",
+      "sha": "c7ae121b87a8aa76ee63ea2cde9a033d264f4d06",
+      "size": 12713,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/__init__.py",
+      "sha": "073c620e0e23c09e05ac0a4877458777fc981f22",
+      "size": 197,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/__init__.py",
+      "sha": "1cdb19953b6529cb4015544c9d0cf8c43a22c2e9",
+      "size": 144,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/base_llm.py",
+      "sha": "8d5a91913dc851b16684a4b4729f031ee48fce50",
+      "size": 10092,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/llama2.py",
+      "sha": "60f1f5756b564a67693870399d18d574eedbfbd9",
+      "size": 3465,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/mistral.py",
+      "sha": "9bc25553db6f9d2cbd292c98615b67c2105345f4",
+      "size": 2384,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/phi.py",
+      "sha": "27bb8b79b0e384af02071a21589050e41aebb4ae",
+      "size": 1971,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/__init__.py",
+      "sha": "8292789c29f76344bf400f844cb946e8a4081a98",
+      "size": 289,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/base_prompter.py",
+      "sha": "3816b1831177d128bbe872c041ed5b0ffaf5b5ed",
+      "size": 2461,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/llama2_chat_prompter.py",
+      "sha": "b094675a6ee550a8d2d99ed35be2d3c4a71e861d",
+      "size": 3330,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/mistral_instruct_prompter.py",
+      "sha": "35a5eab8b3caf31ea671727230d1aed29903dde3",
+      "size": 2181,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/phi_prompter.py",
+      "sha": "b350ea3a6b6c448cc65caa6fa72db3c253dd0b7b",
+      "size": 2479,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/vicuna_v15_prompter.py",
+      "sha": "f5e79e443a791a149cec09a81d55b1a3788eb9de",
+      "size": 3006,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/vision/__init__.py",
+      "sha": "d9f33f8aa95245bdeb84f16b78ebb97b0e2bcd13",
+      "size": 312,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/vision/base_vision.py",
+      "sha": "e9ccadee35f08bf81e370824dcab5feffdfffd0c",
+      "size": 8983,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/vision/clip_vit.py",
+      "sha": "c5d162ec9c7d22a475a71917ea4458c2351835c6",
+      "size": 1270,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/vision/dinoclip_vit.py",
+      "sha": "6653d69242104fecfcad8605223508edb96a7357",
+      "size": 7264,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/vision/dinosiglip_vit.py",
+      "sha": "bced8d179db3bf3ee488bbec36b0af7b4a1001cb",
+      "size": 8088,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/vision/dinov2_vit.py",
+      "sha": "e1e858827100833764394f062693b1dd38c6015a",
+      "size": 703,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/vision/in1k_vit.py",
+      "sha": "9f0f6d3e0082e7e15f963b4123cdabe1deceb55d",
+      "size": 693,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/backbones/vision/siglip_vit.py",
+      "sha": "2ffdbbe8d343524d0914e40742dcfa2f11e7cd4b",
+      "size": 915,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/load.py",
+      "sha": "dba78abea7f4847d64a014ca90a527671351724c",
+      "size": 10225,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/materialize.py",
+      "sha": "df1ad612eceeaf1af2c8a58dc8242bceac778af5",
+      "size": 4998,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/registry.py",
+      "sha": "eabe6acc5fd2d567ddfa6d4e5a3894c5e8ad19a5",
+      "size": 26279,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/vlas/__init__.py",
+      "sha": "fd8e82c9b39c6b9f6d785121c87743187853c47a",
+      "size": 29,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/vlas/openvla.py",
+      "sha": "58ee0f9f3af2a5b362c98c45075d3b2adc07704b",
+      "size": 5830,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/vlms/__init__.py",
+      "sha": "5a31406e6f47bd5f3f75df046d8f64def2356a99",
+      "size": 36,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/vlms/base_vlm.py",
+      "sha": "3c1049501b1156c02acf116891df3296e1177c3f",
+      "size": 4061,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/models/vlms/prismatic.py",
+      "sha": "f6d1a6aac97b724d9148dec818581a91790c285f",
+      "size": 29465,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/overwatch/__init__.py",
+      "sha": "6897a047fc2741f7e434bcdaa78f6a14c473fec9",
+      "size": 44,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/overwatch/overwatch.py",
+      "sha": "f7c40e65a695cc9287e1bcb6fef062904df5aace",
+      "size": 4909,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/preprocessing/__init__.py",
+      "sha": "b62598ef246df852419c118a3dc40a6ebddf4bd6",
+      "size": 105,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/preprocessing/datasets/__init__.py",
+      "sha": "9a642948d2d042def8edd1848053ec7846fd0009",
+      "size": 52,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/preprocessing/datasets/datasets.py",
+      "sha": "35f866eda36c17e95df861063b2a41f171b68e1a",
+      "size": 9375,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/preprocessing/download.py",
+      "sha": "cff294489e8465471be3da3a07bb4000bf4b7a63",
+      "size": 8084,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/preprocessing/materialize.py",
+      "sha": "b84b0d5c1cbf0650efbac20e3700a8ab3d372091",
+      "size": 2485,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/py.typed",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/training/__init__.py",
+      "sha": "58c7f8c8bf8ef7e9c8507eae82d30055e04fae25",
+      "size": 85,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/training/materialize.py",
+      "sha": "4e9f364dbd7d4b908fe21ba3381ae2305b053f83",
+      "size": 2365,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/training/metrics.py",
+      "sha": "9dc86ed13889a6b94dca0ebf2db89cf9823d12e6",
+      "size": 12609,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/training/strategies/__init__.py",
+      "sha": "d73eb1069c982ed3969ba3af56479c0359051a1b",
+      "size": 104,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/training/strategies/base_strategy.py",
+      "sha": "018ee41cfeabf1fc20f01ee70bc1a757b9e773b1",
+      "size": 18360,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/training/strategies/ddp.py",
+      "sha": "be6c1dd20ef1d315eba1aaf77a94b196ea38af45",
+      "size": 7131,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/training/strategies/fsdp.py",
+      "sha": "9af28f474908af1bbb048a28968c986629ecc5a5",
+      "size": 13271,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/util/__init__.py",
+      "sha": "3473f952d5fd1ddabcd6e0e372a74f4db1f407c3",
+      "size": 66,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/util/batching_utils.py",
+      "sha": "5610348e2f5ad5406f71023e014105c98ce5eeff",
+      "size": 12141,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/util/data_utils.py",
+      "sha": "cbed9603ed27df43a179c93889cdfd457e788d37",
+      "size": 6003,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/util/nn_utils.py",
+      "sha": "2b3f6150f2914fde0b1cb80bfb3ad981ad9181ed",
+      "size": 1931,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/util/torch_utils.py",
+      "sha": "8fc08f6ba74afee76ace76897c8de148ede0611f",
+      "size": 3921,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/__init__.py",
+      "sha": "5d2af7062f3a1c94d41b4734c89358b416862999",
+      "size": 54,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/action_tokenizer.py",
+      "sha": "fc1841a714f40ba677a1493782da23db4f9d4f4b",
+      "size": 3758,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/__init__.py",
+      "sha": "dd620793f354ff7889151456dfdc4d5136b6edcd",
+      "size": 89,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/datasets.py",
+      "sha": "539b4144da96c7eca72a2b9a769ddcb5e93a180d",
+      "size": 9956,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/__init__.py",
+      "sha": "d19440506f5ca53a1f6005e2b072174c743ec546",
+      "size": 67,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/dataset.py",
+      "sha": "e9bcd93ebdbdd73c7d810da4d2283ce1829a9dc1",
+      "size": 28038,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/obs_transforms.py",
+      "sha": "d28b07d241fa8f451c7e149cab32397c7f8bb505",
+      "size": 4056,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/__init__.py",
+      "sha": "1502ecb73d70c57c184e0c90e568b02a0fbd11de",
+      "size": 101,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/configs.py",
+      "sha": "2b8dcb93160490422456c092649540a3249ddbba",
+      "size": 30621,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/materialize.py",
+      "sha": "56d0d38feca840ca2005132a1eccb00420ffbd06",
+      "size": 5546,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/mixtures.py",
+      "sha": "aca03da44b66cc23a9b2a3c1d0dee8139578b0ba",
+      "size": 9188,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/transforms.py",
+      "sha": "cc9c6871217defa2a68adc54088fe10cfaee3386",
+      "size": 36065,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/utils/droid_utils.py",
+      "sha": "44175a21cff6c3ae45f7596024852462ea40c68e",
+      "size": 5607,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/traj_transforms.py",
+      "sha": "82cc43a2e7b0a9a3dbaa81d898a4257db560119a",
+      "size": 4423,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/utils/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/utils/data_utils.py",
+      "sha": "7b0e5ae9ccc9e34473912d491b04b0043fd956b1",
+      "size": 13416,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/utils/goal_relabeling.py",
+      "sha": "4864d2b772e53ca75cb03b50efb5921d2deae50c",
+      "size": 1162,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/utils/task_augmentation.py",
+      "sha": "425b57303a4d06dd60ccdc05b7ef51f328e68b18",
+      "size": 1918,
+      "mode": "100644"
+    },
+    {
+      "path": "prismatic/vla/materialize.py",
+      "sha": "1685286da18f57329ba3a9ad052530df7f3b2238",
+      "size": 2054,
+      "mode": "100644"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "f72cae0714861509d895f3b84a4890925f5faac0",
+      "size": 2553,
+      "mode": "100644"
+    },
+    {
+      "path": "requirements-min.txt",
+      "sha": "8276051adb53f994cf0d72388a035c23cd41d2e2",
+      "size": 86,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/additional-datasets/lrv_instruct.py",
+      "sha": "4440ac6259fabe318b89950617daa5e7d8b47ed5",
+      "size": 6679,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/additional-datasets/lvis_instruct_4v.py",
+      "sha": "0a29f7e3741b361924389a3ab66452cb668026f9",
+      "size": 2782,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/extern/convert_prismatic_weights_to_hf.py",
+      "sha": "f7e5b2cf4aa0e13abcb6b2397a8f2f9eed8c183f",
+      "size": 11558,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/extern/verify_prismatic.py",
+      "sha": "742b873d3ef7489d1acf6c11705fa1ef84a51c3f",
+      "size": 5430,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/generate.py",
+      "sha": "cf931d3f517b53a8f162a20f6bfbd8e0172a779e",
+      "size": 4803,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/preprocess.py",
+      "sha": "dc66923c0cd619bb9646eb68812abe6e66a5a8fb",
+      "size": 1695,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/pretrain.py",
+      "sha": "171d5fe75ca212e7abdd721c3535ff7c29ef324a",
+      "size": 11253,
+      "mode": "100644"
+    },
+    {
+      "path": "vla-scripts/deploy.py",
+      "sha": "c70a9f279e3dda2a68091468fc87b563c655a5d7",
+      "size": 5554,
+      "mode": "100644"
+    },
+    {
+      "path": "vla-scripts/extern/convert_openvla_weights_to_hf.py",
+      "sha": "5774954898d2e3c40b0417e477aca582f6471c3b",
+      "size": 13338,
+      "mode": "100644"
+    },
+    {
+      "path": "vla-scripts/extern/verify_openvla.py",
+      "sha": "d76fafb8592871e201d7c9c536b573561ee86919",
+      "size": 3287,
+      "mode": "100644"
+    },
+    {
+      "path": "vla-scripts/finetune.py",
+      "sha": "ec51a6b3cffa2216dffba9fb0b5265a5dde3ebe8",
+      "size": 17834,
+      "mode": "100644"
+    },
+    {
+      "path": "vla-scripts/train.py",
+      "sha": "5c38038d05acf4392d0c53e875a29b6015c3bf1e",
+      "size": 12141,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [],
+  "license": "MIT",
+  "folder": "projects/openvla",
+  "file_count": 106,
+  "bytes": 677179,
+  "lfs_pointers": []
+}

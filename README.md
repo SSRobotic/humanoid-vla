@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">💬 Vision-Language-Action</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-5-f28c28?style=flat-square" alt="5 curated resources"></a>
@@ -27,6 +27,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [X-Humanoid VLA Benchmark](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) | Isaac Sim resources for evaluating vision-language-action policies. | VLA, Benchmark, Isaac Sim | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/x-humanoid-vla-simulation-benchmark) |
 | [OpenPI](https://github.com/Physical-Intelligence/openpi) | Physical Intelligence VLA models and training / inference code. | VLA, Policies, Training | [Physical-Intelligence](https://github.com/Physical-Intelligence/openpi) |
 | [OpenVLA](https://github.com/openvla/openvla) | Vision-language-action models for robotic manipulation. | VLA, Manipulation, Policies | [openvla](https://github.com/openvla/openvla) |
+
+## 📦 Code & models in this repository
+
+**106 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [openvla/openvla](projects/openvla) | 106 | [`c8f03f48af69`](https://github.com/openvla/openvla/tree/c8f03f48af692657d3060c19588038c7220e9af9) | [LICENSE](projects/openvla/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-vla.git
+cd humanoid-vla
+```
+
+OpenVLA model code and training scripts are included. Pretrained weights, training datasets and a configured robot environment are acquired separately through the original project.
 
 ## 🚀 Start here
 
